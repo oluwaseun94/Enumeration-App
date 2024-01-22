@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Data Enumeration App</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <section class="" id="hero">
+
+            <!-- capturing unit -->
+            <div>
+                <p><button onclick="getStream()">Grab video</button></p>
+                <p><video autoplay style="height: 180px; width: 240px;" id="vDisplay"></video></p>
+                <p><button onclick="takePhoto()">Take Photo!</button></p>
+                <p><img id="imageTag" width="240" height="180" style="display: none;"></p>
+                
+                
+            </div>
+            <!-- inputing details unit -->
+            <!-- <div class="form">
+                <h3>Input Student Details</h3>
+                <label for="FirstName">First Name</label>
+                <input type="text" name="firstname" id="firstname">
+                <label for="FirstName">First Name</label>
+                <input type="text" name="firstname" id="firstname">
+                <label for="FirstName">First Name</label>
+                <input type="text" name="firstname" id="firstname">
+                </form>
+            </div> -->
+
+        </section>
+    </div>
 </body>
+    <script src="index.js"></script>
 </html>
